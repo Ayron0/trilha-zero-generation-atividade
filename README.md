@@ -1,1 +1,0 @@
-# trilha-zero-generation-atividade
