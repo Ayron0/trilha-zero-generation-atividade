@@ -25,7 +25,7 @@ programa
 			}
 		}
 
-		para(x = 0; x < 10; x++){
+		para(x = 9; x >= 0; x--){
 			escreva(vetor[x], " ")
 		}
 	}
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 591; 
+ * @POSICAO-CURSOR = 552; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
