@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro  x,y, vetor[10], aux, impar[10], contImpar = 0, par[10], contPar = 0
-		
+		inteiro soma = 0
 
 		para(x = 0; x < 10; x++){
 			escreva("Digite um numero da posição ",x,  ":")
@@ -26,6 +26,12 @@ programa
 			}
 		}
 
+		// Calculo da soma
+		para(x = 0; x < 10; x++){
+			
+			soma += vetor[x]
+		}
+
 		//2,5,1,3,4,9,7,8,10,6
 		escreva("\nElementos no índices ímpares:\n")
 		para(x = 0; x < contImpar; x++){
@@ -36,6 +42,12 @@ programa
 		para(x = 0; x < contPar; x++){
 			escreva(par[x], " ")
 		}
+
+		escreva("\n\nSoma:\n")
+		escreva(soma)
+
+		escreva("\n\nMédia:\n")
+		escreva(soma/10)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -43,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 592; 
+ * @POSICAO-CURSOR = 854; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
